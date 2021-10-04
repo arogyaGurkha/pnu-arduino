@@ -15,8 +15,8 @@ void loop() {
   boolean oldState, newState; // check whether the switch state has changed or not
   while (true) {
     newState = digitalRead(pin_button); // read the switch state
-    
-    led_controller(led_i); // turn on the lights, the 500 delay causes problem with switch, 
+
+    led_controller(led_i); // turn on the lights, the 500 delay causes problem with switch,
 
     if (oldState != newState && !oldState) direction = !direction; // check if the state has changed, this is used to prevent direction to changes when the switch is kept being pressed
 
@@ -27,7 +27,7 @@ void loop() {
       led_i--;
       if (led_i == -1) led_i = 3;
     }
-    
+
     oldState = newState;
   }
 }
