@@ -1,3 +1,7 @@
+/* 
+  LAB 5-2-2
+*/  
+
 int pins_LED[] = {2, 3, 4, 5}; // Pins connected to LEDs
 void setup() {
   Serial.begin(9600);

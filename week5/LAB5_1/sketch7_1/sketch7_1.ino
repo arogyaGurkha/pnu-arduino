@@ -1,4 +1,6 @@
-// LAB 5-1-1
+/* 
+  LAB 5-1-1
+*/  
 
 int vResistor = A0; // Pin A0 connected to a Potentiometer
 void setup() {

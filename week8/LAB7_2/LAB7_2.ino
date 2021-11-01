@@ -21,7 +21,7 @@ void readTemperature() {
 
 void readIlluminance() {
   // Read the value of photo-resistor
-  int reading = analog(56);
+  int reading = analogRead(56);
   Serial.print("ADC : ");
   Serial.print(reading);
   // Calculate voltage from ADC value
@@ -33,4 +33,5 @@ void readIlluminance() {
 void loop() {
   readTemperature();
   readIlluminance();
+  delay(500);
 }

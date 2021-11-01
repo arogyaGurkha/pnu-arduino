@@ -1,3 +1,7 @@
+/* 
+  LAB 5-2-1
+*/  
+
 // Pins connected to an RGB LED
 int RGB_LED[] = {6, 7, 8};
 void setup() {

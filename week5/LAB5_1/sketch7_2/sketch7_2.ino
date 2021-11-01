@@ -1,4 +1,6 @@
-// LAB 5-1-2
+/* 
+  LAB 5-1-2
+*/  
 
 int vResistor = A0; // Pin A0 connected to a Potentiometer
 int pins_LED[] = {2, 3, 4, 5}; // Pins connected to LEDs
